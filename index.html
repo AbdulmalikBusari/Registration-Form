@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration-Form</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Registration Form</h1>
+            <p class="instruc">Please fill out this form eith the required information</p>
+        
+        <form action="">
+            
+            <fieldset>
+                <label for="">Enter your first name: <br>
+                    <input type="text" class="first" name="first-name" id="" value="" required>
+                </label><br>
+                <label for="">Enter your last name: <br>
+                    <input type="text" class="first" name="last-name" id="" value="" required>
+                </label><br>
+                <label for="">Enter your email: <br>
+                    <input type="email" class="first" name="email" id="" value="" required>
+                </label><br>
+                <label for="">Create a password: <br>
+                    <input type="password" class="first" name="password1" id="" value="" required>
+                </label><br>
+                <label for="">Confirm your password: <br>
+                    <input type="password" class="first" name="password2" id="" value="" required>
+                </label>
+            </fieldset>
+
+
+            <hr>
+
+
+            <fieldset>
+                
+                <p>Please choose your gender:</p>
+                <label for="">
+                    <input type="radio" name="gender" id="">
+                       Male
+                </label><br>
+                <label for="">
+                    <input type="radio" name="gender" id="">
+                       Female
+                </label><br>
+                <label for="" >
+                    <input type="checkbox" name="gender" id="" required>
+                       I accept the <a href="">Terms and Conditions</a>
+                </label>
+            </fieldset>
+
+
+            <hr>
+
+
+            <fieldset>
+                <label for="">Upload a profile picture: <br>
+                    <input class="second" type="file" name="profile-pic" id="">
+                </label><br>
+                <label for="">Enter your age (years): 
+                    <input class="second" type="number" min="18" max="65" name="first-name" id="" value="" required>
+                </label><br>
+                <label for="">How did you hear about us? <br>
+                    <select class="second" name="refrence" id="">
+                        <option class="option" value="">Choose option</option>
+                        <option class="option" value="">Website</option>
+                        <option class="option" value="">Social Media</option>
+                        <option class="option" value="">Family and friends</option>
+                        <option class="option" value="">Billboards</option>
+                        <option class="option" value="">Youtube</option>
+                        <option class="option" value="">Other refrals</option>
+                    </select><br>
+                    <label for="">Write your bio:  <br>
+                        <textarea class="bio" name="" id="" cols="30" rows="5" placeholder="Enter any important bio here"></textarea>
+                    </label><br>
+                </label>
+            </fieldset>
+            <label for="">
+                <input class="third" type="submit" value="Submit">
+            </label>
+        </form>
+    </div>    
+</body>
+</html>

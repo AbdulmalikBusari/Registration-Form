@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body {
+    background-color: blue;
+}
+
+
+.main {
+    width: 40%;
+    margin: 100px auto;
+    border-radius: 30px;
+    /* text-align: center; */
+}
+
+h1 {
+    text-align: center;
+}
+
+.instruc {
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+
+fieldset {
+    border: 0ch;
+}
+
+hr {
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: yellow;
+    height: 3px;
+    border: 0;
+}
+
+.first {
+    margin: 10px;
+    margin-left: 0;
+    width: 100%;
+    background-color: black;
+    height: 30px;
+    border: 0;
+}
+
+.second {
+    margin: 10px;
+    margin-left: 0;
+    width: 100%;
+    background-color: black;
+    height: 30px;
+    border: 0;
+    color: white;
+}
+
+a {
+    color: rgb(226, 132, 132);
+}
+
+.option {
+    color: white;
+}
+
+.bio {
+    margin: 10px;
+    margin-left: 0;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    border: 0;
+    color: white;
+}
+
+.third {
+    margin: 20px;
+    margin-top: 40px;
+    margin-left: 20%;
+    width: 60%;
+    height: 30px;
+    padding: 3px;
+    background-color: black;
+    height: 30px;
+    color: white;
+    background-color: rgb(78, 76, 76);
+    color: white;
+    border-color: white; 
+}
+
+input {
+    margin: 10px;
+    margin-left: 0;
+    background-color: gray;
+    color: white;
+    border-color: white; 
+ }
